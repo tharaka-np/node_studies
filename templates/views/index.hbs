@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{>header}}
+    <h2>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/about">About</a>
+            </li>
+        </ul>
+        {{createdBy}}
+
+        <form>
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form>
+    </h2>
+    {{>footer}}
+
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
